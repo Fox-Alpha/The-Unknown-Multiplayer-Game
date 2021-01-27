@@ -18,6 +18,24 @@ _global_script_class_icons={
 config/name="Game.Server"
 config/icon="res://icon.png"
 
+[display]
+
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
+[locale]
+
+test="de"
+locale_filter=[ 1, [ "de", "en" ] ]
+
+[mono]
+
+debugger_agent/port=23680
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
+
+[world]
+
+2d/cell_size=64
